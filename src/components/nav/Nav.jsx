@@ -8,7 +8,7 @@ function Nav() {
     <nav>
       <div className={style.nav_container}>
         <div className={style.nav_title_wrapper}>
-          <Link to='/'>
+          <Link to='/e-learning'>
           <img
             className={style.logo}
             src="https://files.codingninjas.in/pl-ninja-16706.svg"
@@ -17,7 +17,7 @@ function Nav() {
           <h4>E-Learning</h4>
         </div>
         <div className={style.nav_details}>
-        <NavLink to ='/courses'> <button>Courses</button> </NavLink>
+        <NavLink to ='/e-learning/courses'> <button>Courses</button> </NavLink>
         </div>
       </div>
     </nav>

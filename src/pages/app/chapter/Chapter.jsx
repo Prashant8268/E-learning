@@ -10,7 +10,6 @@ function Chapter() {
   const {chapterId} = useParams();
   const course = useOutletContext();
   const chapter = course.chapters.find((index)=>chapterId===String(index.chapter));
-  console.log(chapter,chapterId,"shi jaa rha h ",course);
 
   // const course = coursesData.find((index)=>id===index.Chapter);
 

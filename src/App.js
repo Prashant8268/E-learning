@@ -11,13 +11,13 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/', element: <Nav />, children:[
+      path: '/e-learning', element: <Nav />, children:[
         {
           path: '', element :<Hero />
         },
         {
           // understand below routing 
-          path: '/courses',children:[
+          path: '/e-learning/courses',children:[
             {
               path: '', element : <Courses />
             },
@@ -40,7 +40,7 @@ function App() {
           ]
         },
         {
-          path: '/learn/:courseId', element: <Learn />, children:[
+          path: '/e-learning/learn/:courseId', element: <Learn />, children:[
             {
               path: 'chapter/:chapterId', element: <Chapter />
             }
