@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/E-learning/static/css/main.09bb198a.css",
-    "main.js": "/E-learning/static/js/main.802f235a.js",
-    "index.html": "/E-learning/index.html",
-    "main.09bb198a.css.map": "/E-learning/static/css/main.09bb198a.css.map",
-    "main.802f235a.js.map": "/E-learning/static/js/main.802f235a.js.map"
+    "main.css": "/e-learning/static/css/main.2e69982f.css",
+    "main.js": "/e-learning/static/js/main.1041072a.js",
+    "index.html": "/e-learning/index.html",
+    "main.2e69982f.css.map": "/e-learning/static/css/main.2e69982f.css.map",
+    "main.1041072a.js.map": "/e-learning/static/js/main.1041072a.js.map"
   },
   "entrypoints": [
-    "static/css/main.09bb198a.css",
-    "static/js/main.802f235a.js"
+    "static/css/main.2e69982f.css",
+    "static/js/main.1041072a.js"
   ]
 }
