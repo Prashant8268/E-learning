@@ -29,7 +29,7 @@ function Details() {
         </div>
       </div>
       {/* Task4: create Link to the Learn Page */}
-     <Link to={`/learn/${item.id}`} > <button className={style.button}>Start Learning</button> </Link>
+     <Link to={`/e-learning/learn/${item.id}`} > <button className={style.button}>Start Learning</button> </Link>
      </div>
   );
 }

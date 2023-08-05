@@ -15,7 +15,7 @@ function Learn() {
     <div className={style.courses_container}>
       <div className={style.top_head}>
         {/* Task4: Create Link to go back to the Courses page */}
-      <Link to='/courses'>  <h2 className={style.back}>{"<<"}</h2> </Link>
+      <Link to='/e-learning/courses'>  <h2 className={style.back}>{"<<"}</h2> </Link>
 
         {/* Task4: Title of the Course */}
         <h1 className={style.heading}>{course.title} </h1>
